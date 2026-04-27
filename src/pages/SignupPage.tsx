@@ -50,7 +50,7 @@ export default function SignupPage() {
           <Link to="/" className="inline-flex items-center gap-2 mb-6">
             <Trophy size={32} className="text-cyan-neon" style={{ filter: 'drop-shadow(0 0 10px rgba(0,245,255,0.8))' }} />
             <span className="font-display font-bold text-2xl">
-              <span className="text-gradient-cyan">Sporta</span><span className="text-white">Desk</span>
+              <span className="text-gradient-cyan">Sports</span><span className="text-white">Desk</span>
             </span>
           </Link>
           <h1 className="font-display font-bold text-3xl text-white mb-2">Create account</h1>

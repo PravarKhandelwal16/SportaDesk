@@ -44,7 +44,7 @@ export default function Navbar() {
               />
             </div>
             <span className="font-display font-bold text-xl tracking-tight">
-              <span className="text-gradient-cyan">Sporta</span>
+              <span className="text-gradient-cyan">Sports</span>
               <span className="text-white">Desk</span>
             </span>
           </Link>

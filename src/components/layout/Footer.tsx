@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <Trophy size={24} className="text-cyan-neon" style={{ filter: 'drop-shadow(0 0 6px rgba(0,245,255,0.7))' }} />
               <span className="font-display font-bold text-xl">
-                <span className="text-gradient-cyan">Sporta</span>
+                <span className="text-gradient-cyan">Sports</span>
                 <span className="text-white">Desk</span>
               </span>
             </div>
@@ -47,7 +47,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/5 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-gray-600">© 2026 SportaDesk. All rights reserved.</p>
+          <p className="text-xs text-gray-600">© 2026 SportsDesk. All rights reserved.</p>
           <div className="flex items-center gap-4">
             {['Privacy', 'Terms', 'Cookies'].map((l) => (
               <a key={l} href="#" className="text-xs text-gray-600 hover:text-gray-400 transition-colors">{l}</a>
