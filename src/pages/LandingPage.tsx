@@ -21,8 +21,8 @@ const features = [
 ]
 
 const colorMap: Record<string, string> = {
-  cyan:    'text-cyan-neon bg-cyan-neon/10 border-cyan-neon/20',
-  lime:    'text-lime-neon bg-lime-neon/10 border-lime-neon/20',
+  cyan: 'text-cyan-neon bg-cyan-neon/10 border-cyan-neon/20',
+  lime: 'text-lime-neon bg-lime-neon/10 border-lime-neon/20',
   magenta: 'text-magenta-neon bg-magenta-neon/10 border-magenta-neon/20',
 }
 
@@ -78,7 +78,7 @@ export default function LandingPage() {
             </motion.h1>
 
             <motion.p variants={fadeUp} className="text-gray-400 text-lg max-w-md leading-relaxed">
-              The <span className="text-white font-medium">futuristic platform</span> for cricket, kabaddi, football & more.
+              <span className="text-white font-medium">A platform</span> for cricket, kabaddi, football & more.
               Run perfect tournaments with real-time scoring, smart brackets, and stunning dashboards.
             </motion.p>
 
